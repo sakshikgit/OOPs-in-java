@@ -13,8 +13,14 @@ public class Main {
 
 // this is not dependent on objects
     static void fun(){
-        greeting(); // you can't use this because it requires an instance
-        // but the function you are using it in does not depend on instances 
+       // greeting(); // you can't use this because it requires an instance
+        // but the function you are using it in does not depend on instances
+        
+
+        // you can't access non static stuff without referencing their instances in a static context
+        // hence, i am referencing it
+        Main obj = new Main();
+        obj.greeting();
 
     }
 
