@@ -1,5 +1,5 @@
 package staticExample;
-import staticExample.Human;
+
 
 public class Main {
     public static void main(String[] args) {
