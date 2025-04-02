@@ -53,7 +53,8 @@ public class CustomArrayList {
         CustomArrayList list = new CustomArrayList();
         list.add(3);
         list.add(5);
-        
+        System.out.println(list);
+
         
     }
     
